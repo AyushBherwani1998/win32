@@ -205,22 +205,50 @@ const HOLLOW_BRUSH = NULL_BRUSH;
 const WHITE_PEN = 6;
 const BLACK_PEN = 7;
 
+/// {@nodoc}
 final IDI_APPLICATION = Pointer<Utf16>.fromAddress(32512);
+
+/// {@nodoc}
 final IDI_HAND = Pointer<Utf16>.fromAddress(32513);
+
+/// {@nodoc}
 final IDI_QUESTION = Pointer<Utf16>.fromAddress(32514);
+
+/// {@nodoc}
 final IDI_EXCLAMATION = Pointer<Utf16>.fromAddress(32515);
+
+/// {@nodoc}
 final IDI_ASTERISK = Pointer<Utf16>.fromAddress(32516);
+
+/// {@nodoc}
 final IDI_WINLOGO = Pointer<Utf16>.fromAddress(32517);
+
+/// {@nodoc}
 final IDI_SHIELD = Pointer<Utf16>.fromAddress(32518);
+
+/// {@nodoc}
 final IDI_WARNING = IDI_EXCLAMATION;
+
+/// {@nodoc}
 final IDI_ERROR = IDI_HAND;
+
+/// {@nodoc}
 final IDI_INFORMATION = IDI_ASTERISK;
 
 // Stock cursors
+/// {@nodoc}
 final IDC_ARROW = Pointer<Utf16>.fromAddress(32512);
+
+/// {@nodoc}
 final IDC_IBEAM = Pointer<Utf16>.fromAddress(32513);
+
+/// {@nodoc}
 final IDC_WAIT = Pointer<Utf16>.fromAddress(32514);
+
+/// {@nodoc}
 final IDC_CROSS = Pointer<Utf16>.fromAddress(32515);
+
+/// {@nodoc}
 final IDC_UPARROW = Pointer<Utf16>.fromAddress(32516);
 
 // MessageBox flags

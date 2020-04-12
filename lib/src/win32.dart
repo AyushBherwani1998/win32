@@ -12,20 +12,31 @@ typedef WindowProc = Int64 Function(
     Int64 hwnd, Int32 uMsg, Int64 wParam, Int64 lParam);
 
 // *** Helper Function ***
+/// {@nodoc}
 final TEXT = Utf16.toUtf16;
 
 // *** APIs ***
 final user32 = DynamicLibrary.open('user32.dll');
+
+/// {@category user32}
 final BeginPaint =
     user32.lookupFunction<beginPaintNative, beginPaintDart>('BeginPaint');
+
+/// {@category user32}
 final CreateWindowEx =
     user32.lookupFunction<createWindowExNative, createWindowExDart>(
         'CreateWindowExW');
+
+/// {@category user32}
 final DefWindowProc = user32
     .lookupFunction<defWindowProcNative, defWindowProcDart>('DefWindowProcW');
+
+/// {@category user32}
 final DispatchMessage =
     user32.lookupFunction<dispatchMessageNative, dispatchMessageDart>(
         'DispatchMessageW');
+
+/// {@category user32}
 final DrawText =
     user32.lookupFunction<drawTextNative, drawTextDart>('DrawTextW');
 final EndPaint =

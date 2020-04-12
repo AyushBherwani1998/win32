@@ -1,0 +1,13 @@
+dartdoc:
+  categories: 
+    "User32":
+      name: user32
+    "Kernel32":
+      name: kernel32
+    "Gdi32":
+      name: gdi32
+    "Shell32":
+      name: shell32
+    "Ole32":
+      name: ole32
+  categoryOrder: ["user32", "gdi32", "shell32", "ole32", "kernel32"]
